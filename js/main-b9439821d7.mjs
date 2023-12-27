@@ -6,23 +6,23 @@ const validCredentials = {
     password: '5may2004'
 };
 
-function login() {
-    const usernameInput = document.getElementById('username');
-    const passwordInput = document.getElementById('password');
-    const loginForm = document.getElementById('loginForm');
-    const protectedPage = document.querySelector('.contentPage');
-    console.log(protectedPage);
+// function login() {
+//     const usernameInput = document.getElementById('username');
+//     const passwordInput = document.getElementById('password');
+//     const loginForm = document.getElementById('loginForm');
+//     const protectedPage = document.querySelector('.contentPage');
+//     console.log(protectedPage);
 
-    const enteredUsername = usernameInput.value;
-    const enteredPassword = passwordInput.value;
+//     const enteredUsername = usernameInput.value;
+//     const enteredPassword = passwordInput.value;
 
-    if (
-        enteredUsername === validCredentials.username &&
-        enteredPassword === validCredentials.password
-    ) {
-        loginForm.style.display = 'none';
-        protectedPage.style.display = 'block';
-    } else {
-        alert('Invalid username or password');
-    }
-}
+//     if (
+//         enteredUsername === validCredentials.username &&
+//         enteredPassword === validCredentials.password
+//     ) {
+//         loginForm.style.display = 'none';
+//         protectedPage.style.display = 'block';
+//     } else {
+//         alert('Invalid username or password');
+//     }
+// }
